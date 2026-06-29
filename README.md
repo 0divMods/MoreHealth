@@ -2,7 +2,7 @@
 
 A Minecraft Forge mod for Minecraft 1.20.1 that scales player health with XP level. Players start with 1 heart and gain more through leveling up or consuming Heart Container items.
 
-Current release channel: **Beta** (`1.0.0-beta.1`).
+Current release: **1.0.0**.
 
 ## Features
 
@@ -99,7 +99,7 @@ This project is based on the Forge MDK for 1.20.1-47.4.10. If starting from scra
 ./gradlew build
 ```
 
-This will generate the JAR at `build/libs/healthscaling-1.0.0-beta.1.jar`. Copy it to your Prism Launcher instance's mods folder to install.
+This will generate the JAR at `build/libs/morehealth-1.0.0.jar`. Copy it to your Prism Launcher instance's mods folder to install.
 
 ## Running the Mod
 
@@ -163,14 +163,15 @@ src/main/java/com/dividedby0/healthscaling/
 
 Note: The internal mod ID remains `healthscaling` for save/config compatibility.
 
-## Release Notes (1.0.0-beta.1)
+## Release Notes (1.0.0)
 
-- Initial beta release on Forge 1.20.1.
+- Stable Forge 1.20.1 release.
 - Added XP-to-hearts scaling system.
 - Added nine configurable XP milestone thresholds.
 - Added Heart Container item for permanent bonus hearts.
 - Added persistent NBT data and migration handling.
 - Added in-game configuration screen.
+- Updated config initialization to use Forge's config directory path for shared dev-pack and launcher compatibility.
 
 ## License
 
