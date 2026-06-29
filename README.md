@@ -158,8 +158,8 @@ src/main/java/com/dividedby0/healthscaling/
 
 ## Project Links
 
-- Repository: https://github.com/0dividedby0/MoreHealth
-- Issues: https://github.com/0dividedby0/MoreHealth/issues
+- Repository: https://github.com/0divMods/MoreHealth
+- Issues: https://github.com/0divMods/MoreHealth/issues
 
 Note: The internal mod ID remains `healthscaling` for save/config compatibility.
 
